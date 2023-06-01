@@ -3,7 +3,7 @@ h1.onmouseover = function() {
     console.log("I am a heading element.");
 };
 let p = document.querySelector("p");
-p.onmouseover = function() {
+p.onclick = function() {
     document.querySelector("p>em").innerText = "Don't be surprised";
 }
 let img = document.querySelector("img");
